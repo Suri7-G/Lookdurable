@@ -73,6 +73,7 @@ input, select, textarea {
 
 /* Basic */
 
+
 	html {
 		box-sizing: border-box;
 	}
@@ -84,7 +85,7 @@ input, select, textarea {
 	body {
 		background: #f9ffb6 url("images/bleu.jpg");
 		color: #000000;
-		font-size: 13.5pt;
+		font-size: 10.5pt;
 		font-family: 'Yanone Kaffeesatz';
 		line-height: 1.85em;
 		font-weight: 300;
@@ -92,7 +93,7 @@ input, select, textarea {
 
 	input, textarea, select {
 		color: #050809;
-		font-size: 13.5pt;
+		font-size: 10.5pt;
 		font-family: 'Yanone Kaffeesatz';
 		line-height: 1.85em;
 		font-weight: 300;
@@ -1476,7 +1477,7 @@ input, select, textarea {
 		background-image: linear-gradient(top, #ed391b, #ce1a00);
 		display: inline-block;
 		background-color: #ed391b;
-		color: #fff;
+		color: #080808;
 		text-decoration: none;
 		font-size: 1.75em;
 		height: 2em;
@@ -2022,3 +2023,7 @@ input, select, textarea {
 			}
 
 	}
+	body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}

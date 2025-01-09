@@ -49,3 +49,23 @@
 				});
 
 })(jQuery);
+const openPopup = document.getElementById('openPopup');
+const closePopup = document.getElementById('closePopup');
+const popup = document.getElementById('popup');
+const overlay = document.getElementById('overlay');
+
+openPopup.addEventListener('click', (e) => {
+    e.preventDefault();
+    popup.classList.add('visible');
+    overlay.classList.add('visible');
+});
+
+closePopup.addEventListener('click', () => {
+    popup.classList.remove('visible');
+    overlay.classList.remove('visible');
+});
+
+overlay.addEventListener('click', () => {
+    popup.classList.remove('visible');
+    overlay.classList.remove('visible');
+});
